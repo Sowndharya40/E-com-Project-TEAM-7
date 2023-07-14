@@ -1,0 +1,159 @@
+#A{
+    font-style: url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+    border-radius: 7px;
+    background-color: rgb(0, 255, 26);
+    font-style: italic;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 30px rgb(0,0,0,.5);
+    background-color: black;
+}
+
+.navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: darkorange;
+}
+
+#navbarSupportedContent a{
+    color: white;
+    border-bottom: 2px solid transparent;
+}
+
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home{
+    background-image:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url("https://ichef.bbci.co.uk/news/976/cpsprodpb/DA30/production/_119365855_gettyimages-956327810.jpg");
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+#home h1{
+    color: white;
+    font-size: 100px;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px #ccc,
+                 0px 2px 0px #ccc,
+                 0px 3px 0px #ccc,
+                 0px 4px 0px #ccc,
+                 0px 5px 0px #ccc,
+                 0px 6px 0px #ccc,
+                 0px 7px 0px #ccc,
+                 0px 8px 0px #ccc,;
+}
+
+#home p{
+    font-size: 18px;
+    color: white;
+}
+
+#home .input-group{
+width: 40%;
+height: 45PX;
+}
+.btnSignin{
+    background-color: green;
+    color: white !important;
+    box-shadow: 2px 4px 5px rgba(0,0,0,.3);
+    border-radius: 20px;
+}
+
+/***About**/
+
+#about{
+    background: linear-gradient(#000000,#000000 100%);
+}
+
+#about h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+}
+
+#about p{
+    color: white;
+
+}
+
+.img-fluid{
+    border-radius: 100%;
+}
+
+/***PRODUCTS**/
+
+#product{
+    background: gray;
+}
+
+#product h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: white;
+}
+
+.card{
+    width: 250px;
+    height: 300px;
+    background: #e5e5e5 !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,0.3),
+                inset 4px 4px 10px white;
+    margin: 20px 60px;
+    transition: .2s;
+}
+
+.card:hover{
+    box-shadow: inset 5px 20px 20px rgba(0,0,0,.3),
+                inset -4px -4px 10px white;
+                transition: .2s;
+}
+
+#kar{
+    text-align: center;
+    font-style: bold;
+    color: rgb(255, 255, 255);
+    background-color: rgb(178, 120, 129);
+    border-radius: 20px;
+    padding: 10px;
+    
+    
+}
+
+#kar1{
+    background-color: rgb(51, 241, 51);
+    
+    border-radius: 10px;
+}
+
+#contact{
+    background-image: url("https://img.theweek.in/content/dam/week/news/biz-tech/images/2019/7/3/flipkart.jpg");
+    border-radius: 20px;
+}
